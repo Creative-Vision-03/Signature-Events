@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>About | Signature Events</title>
+    <meta name="description" content="About Signature Events, event styling and hire in Harare, Zimbabwe. Your vision. Our styling. A memorable occasion." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <!-- Animated background: petals are created by js/main.js -->
+    <div class="bg" aria-hidden="true" id="petals"></div>
+
+    <div class="sheet">
+      <!-- ============================================================
+     SHARED HEADER AND MENU
+     This block is identical on every page. If you change a menu link,
+     change it in all 5 pages (index, packages, gallery, about, contact).
+     ============================================================ -->
+      <header class="top" id="top">
+        <div class="in">
+          <div class="bar">
+            <button
+              class="burger"
+              id="burger"
+              aria-expanded="false"
+              aria-controls="drawer"
+              aria-label="Open menu"
+            >
+              <i></i><i></i><i></i>
+            </button>
+            <nav class="nav" aria-label="Main">
+              <a href="index.html">Home</a>
+              <a href="packages.html">Packages</a>
+              <a href="gallery.html">Gallery</a>
+              <a href="about.html" aria-current="page">About</a>
+              <a href="contact.html">Contact</a>
+            </nav>
+            <a class="brand" href="index.html"><b>SIGNATURE EVENTS</b><small>EVENT STYLING &amp; HIRE</small></a>
+            <div class="right">
+              <a class="enq" href="contact.html#enquiry">Enquire</a>
+              <a class="btn" href="contact.html#enquiry">Book your event</a>
+            </div>
+          </div>
+          <div class="drawer" id="drawer">
+            <a href="index.html">Home</a>
+            <a href="packages.html">Packages</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about.html" aria-current="page">About</a>
+            <a href="contact.html">Contact</a>
+            <a class="btn solid" href="contact.html#enquiry">Book your event</a>
+          </div>
+        </div>
+      </header>
+
+      <!-- ============================================================
+     PAGE CONTENT: everything between <main> and </main> is this page's own content.
+     Each page has ONE h1 (the page title). Section titles are h2, smaller titles are h3.
+     ============================================================ -->
+      <main id="main">
+        <!-- ============================================================
+     ABOUT  (page title)
+     h1 = page title   p.quote = quote   p = first paragraph   p.two = second paragraph
+     Photo: images/white-reception.jpg
+     ============================================================ -->
+
+        <section id="about" class="band alt about">
+          <div class="in">
+            <div class="split">
+              <div class="frame">
+                <img
+                  src="images/white-reception.jpg"
+                  alt="Timeless all-white reception under draped fabric with a chandelier"
+                  width="960"
+                  height="1280"
+                  loading="lazy"
+                />
+              </div>
+              <div class="copy">
+                <h1>ABOUT SIGNATURE EVENTS</h1>
+                <p class="quote">“Your vision. Our styling. A memorable occasion.”</p>
+                <p>
+                  Signature Events specialises in event styling and hire, helping bring celebrations to life
+                  through coordinated furniture, table settings, tents, backdrops and decorative details. From
+                  traditional Roora ceremonies to parties, book launches and special gatherings, our packages
+                  offer a range of styling options to suit different guest counts and event preferences.
+                </p>
+                <p class="two">
+                  Our focus is on creating coordinated, beautiful settings that make every occasion memorable.
+                </p>
+                <a class="btn" href="packages.html">Explore our packages</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============================================================
+     FINAL CALL TO ACTION
+     h2 = banner title   p.q = quote   p.s = supporting sentence
+     ============================================================ -->
+
+        <section id="cta">
+          <div class="final">
+            <img
+              src="images/candlelit-table.jpg"
+              alt="Candlelit reception table at sunset with burgundy roses"
+              width="1024"
+              height="1536"
+              loading="lazy"
+            />
+            <div class="txt">
+              <h2>LET’S CREATE SOMETHING BEAUTIFUL</h2>
+              <p class="q">Your vision. Our styling. A memorable occasion.</p>
+              <p class="s">
+                Choose your package and let Signature Events help you create a beautifully coordinated
+                celebration.
+              </p>
+              <div class="ctas">
+                <a class="btn light fill" href="contact.html#enquiry">Book your event</a>
+                <a class="btn light" href="https://wa.me/263789571647" target="_blank" rel="noopener" data-wa
+                  ><svg aria-hidden="true"><use href="#i-wa" /></svg>Call / WhatsApp 0789571647</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- ============================================================
+     SHARED FOOTER
+     This block is identical on every page. If you change it,
+     change it in all 5 pages.
+     ============================================================ -->
+      <footer class="slim">
+        <div class="in">
+          <nav class="fnav" aria-label="Footer">
+            <a href="index.html">Home</a>
+            <a href="packages.html">Packages</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about.html" aria-current="page">About</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+          <p class="copy-r">
+            Signature Events, Event Styling &amp; Hire · Three Anchor House, Corner First Street &amp; Jason Moyo
+            Avenue, Harare, Zimbabwe ·
+            <a href="https://wa.me/263789571647" target="_blank" rel="noopener" data-wa>0789571647</a>
+          </p>
+          <p class="copy-r">© Signature Events. All rights reserved.</p>
+        </div>
+      </footer>
+
+    </div>
+
+    <!-- ============================================================
+     SCROLL-UP BUTTON AND WHATSAPP FLOATING BUTTON
+     ============================================================ -->
+    <button class="up" id="up" type="button" aria-label="Scroll to top">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 15l7-7 7 7" /></svg>
+    </button>
+    <div class="wa-wrap">
+      <a
+        class="wa"
+        id="wa"
+        href="https://wa.me/263789571647"
+        target="_blank"
+        rel="noopener"
+        aria-label="Chat with Signature Events on WhatsApp"
+      >
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+          <path
+            d="M16.04 3C9.4 3 4 8.4 4 15.03c0 2.12.55 4.18 1.6 6L4 29l8.17-1.57a12 12 0 0 0 3.87.64C22.67 28.07 28 22.67 28 16.04 28 9.4 22.67 3 16.04 3zm0 22.04c-1.2 0-2.37-.3-3.4-.9l-.5-.3-4.85.93.95-4.72-.32-.5a10 10 0 0 1-1.52-5.3c0-5.55 4.5-10.05 10.06-10.05 5.54 0 10.04 4.5 10.04 10.05 0 5.55-4.5 10.05-10.04 10.05zm5.5-7.52c-.3-.15-1.78-.88-2.06-.98-.28-.1-.48-.15-.68.15-.2.3-.78.98-.96 1.18-.18.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.46.13-.6.14-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.68-1.64-.93-2.25-.24-.58-.5-.5-.68-.5h-.58c-.2 0-.53.07-.8.38-.28.3-1.05 1.03-1.05 2.5s1.08 2.9 1.23 3.1c.15.2 2.1 3.2 5.08 4.5.7.3 1.27.5 1.7.62.72.23 1.37.2 1.88.12.58-.08 1.78-.73 2.03-1.43.25-.7.25-1.3.18-1.43-.08-.12-.28-.2-.58-.35z"
+          />
+        </svg>
+      </a>
+      <span class="bubble" id="bubble" aria-hidden="true">Need help?</span>
+    </div>
+
+    <!-- ============================================================
+     ICONS USED ON THIS PAGE (do not edit; each icon is reused with an SVG use tag)
+     ============================================================ -->
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true" focusable="false">
+      <defs>
+        <symbol id="i-wa" viewBox="0 0 32 32">
+          <path
+            d="M16.04 3C9.4 3 4 8.4 4 15.03c0 2.12.55 4.18 1.6 6L4 29l8.17-1.57a12 12 0 0 0 3.87.64C22.67 28.07 28 22.67 28 16.04 28 9.4 22.67 3 16.04 3zm0 22.04c-1.2 0-2.37-.3-3.4-.9l-.5-.3-4.85.93.95-4.72-.32-.5a10 10 0 0 1-1.52-5.3c0-5.55 4.5-10.05 10.06-10.05 5.54 0 10.04 4.5 10.04 10.05 0 5.55-4.5 10.05-10.04 10.05zm5.5-7.52c-.3-.15-1.78-.88-2.06-.98-.28-.1-.48-.15-.68.15-.2.3-.78.98-.96 1.18-.18.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.46.13-.6.14-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.68-1.64-.93-2.25-.24-.58-.5-.5-.68-.5h-.58c-.2 0-.53.07-.8.38-.28.3-1.05 1.03-1.05 2.5s1.08 2.9 1.23 3.1c.15.2 2.1 3.2 5.08 4.5.7.3 1.27.5 1.7.62.72.23 1.37.2 1.88.12.58-.08 1.78-.73 2.03-1.43.25-.7.25-1.3.18-1.43-.08-.12-.28-.2-.58-.35z"
+          />
+        </symbol>
+      </defs>
+    </svg>
+    <script src="js/settings.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>

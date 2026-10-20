@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Packages &amp; Pricing | Signature Events</title>
+    <meta name="description" content="Classic, Gold and Premium event styling packages from Signature Events, Harare. Prices by guest count, full inclusions and optional extras." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <!-- Animated background: petals are created by js/main.js -->
+    <div class="bg" aria-hidden="true" id="petals"></div>
+
+    <div class="sheet">
+      <!-- ============================================================
+     SHARED HEADER AND MENU
+     This block is identical on every page. If you change a menu link,
+     change it in all 5 pages (index, packages, gallery, about, contact).
+     ============================================================ -->
+      <header class="top" id="top">
+        <div class="in">
+          <div class="bar">
+            <button
+              class="burger"
+              id="burger"
+              aria-expanded="false"
+              aria-controls="drawer"
+              aria-label="Open menu"
+            >
+              <i></i><i></i><i></i>
+            </button>
+            <nav class="nav" aria-label="Main">
+              <a href="index.html">Home</a>
+              <a href="packages.html" aria-current="page">Packages</a>
+              <a href="gallery.html">Gallery</a>
+              <a href="about.html">About</a>
+              <a href="contact.html">Contact</a>
+            </nav>
+            <a class="brand" href="index.html"><b>SIGNATURE EVENTS</b><small>EVENT STYLING &amp; HIRE</small></a>
+            <div class="right">
+              <a class="enq" href="contact.html#enquiry">Enquire</a>
+              <a class="btn" href="contact.html#enquiry">Book your event</a>
+            </div>
+          </div>
+          <div class="drawer" id="drawer">
+            <a href="index.html">Home</a>
+            <a href="packages.html" aria-current="page">Packages</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a class="btn solid" href="contact.html#enquiry">Book your event</a>
+          </div>
+        </div>
+      </header>
+
+      <!-- ============================================================
+     PAGE CONTENT: everything between <main> and </main> is this page's own content.
+     Each page has ONE h1 (the page title). Section titles are h2, smaller titles are h3.
+     ============================================================ -->
+      <main id="main">
+        <!-- ============================================================
+     PAGE TITLE
+     h1 = page title   p = quote under the title
+     ============================================================ -->
+
+        <section class="band page-head">
+          <div class="in">
+            <div class="sec-head">
+              <h1>PACKAGES &amp; PRICING</h1>
+              <span class="rule"></span>
+              <p>“Beautifully styled celebrations for different guest counts.”</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============================================================
+     PRICING TABLES AND FULL INCLUSIONS
+     One article per package. h2 = package name   p.tg = tagline
+     table = price by guest count   "Setup includes" and "Not included" = bullet lists
+     IMPORTANT: when you change a price, also change PRICES in js/form.js (the contact form estimate) and the "Starting from" price on index.html.
+     ============================================================ -->
+
+        <section id="pricing" class="band">
+          <div class="in">
+            <div class="panels">
+              <article class="panel" id="pkg-classic">
+                <div class="hd">
+                  <span class="ico"
+                    ><svg aria-hidden="true"><use href="#i-chair" /></svg
+                  ></span>
+                  <h2>CLASSIC</h2>
+                </div>
+                <p class="tg">Simple elegance, beautifully executed.</p>
+                <table>
+                  <caption>
+                    Package price in USD
+                  </caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">Guests</th>
+                      <td
+                        style="
+                          font: 500 10px/1 var(--sans);
+                          letter-spacing: 0.2em;
+                          text-transform: uppercase;
+                          color: var(--muted);
+                        "
+                      >
+                        Price
+                      </td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">15</th>
+                      <td>$220</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">20</th>
+                      <td>$270</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">25</th>
+                      <td>$320</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">30</th>
+                      <td>$370</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">40</th>
+                      <td>$470</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">50</th>
+                      <td>$570</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">60</th>
+                      <td>$670</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">80</th>
+                      <td>$870</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">100</th>
+                      <td>$1,070</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">150</th>
+                      <td>$1,570</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="incl">
+                  <h4>Setup includes</h4>
+                  <ul>
+                    <li>Chiavari Chairs only</li>
+                    <li>Round or rectangular tables</li>
+                    <li>Tablecloths and napkins</li>
+                    <li>Charger plates and side plates</li>
+                    <li>Gold or silver forks and knives</li>
+                    <li>Wine and champagne glasses</li>
+                    <li>Centrepieces and faux flower arrangements</li>
+                    <li>Stretch tent only</li>
+                    <li>Green turf</li>
+                    <li>Simple 3-piece backdrop, including 1 personalised piece</li>
+                    <li>Standard gold and white couch setup</li>
+                  </ul>
+                </div>
+                <div class="incl no">
+                  <h4>Not included</h4>
+                  <ul>
+                    <li>Crossback Chairs</li>
+                    <li>Cabana and coloured-frame tents</li>
+                  </ul>
+                </div>
+                <a class="btn solid" href="contact.html?package=classic#enquiry">Book this package</a>
+              </article>
+
+              <article class="panel gold" id="pkg-gold">
+                <div class="hd">
+                  <span class="ico"
+                    ><svg aria-hidden="true"><use href="#i-crown" /></svg
+                  ></span>
+                  <h2>GOLD</h2>
+                </div>
+                <p class="tg">The perfect balance of elegance and affordability.</p>
+                <table>
+                  <caption>
+                    Package price in USD
+                  </caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">Guests</th>
+                      <td
+                        style="
+                          font: 500 10px/1 var(--sans);
+                          letter-spacing: 0.2em;
+                          text-transform: uppercase;
+                          color: var(--muted);
+                        "
+                      >
+                        Price
+                      </td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">15</th>
+                      <td>$290</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">20</th>
+                      <td>$360</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">25</th>
+                      <td>$425</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">30</th>
+                      <td>$490</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">40</th>
+                      <td>$620</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">50</th>
+                      <td>$750</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">60</th>
+                      <td>$880</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">80</th>
+                      <td>$1,140</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">100</th>
+                      <td>$1,400</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">150</th>
+                      <td>$2,050</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="incl">
+                  <h4>Setup includes</h4>
+                  <ul>
+                    <li>Crossback Chairs only</li>
+                    <li>Round or rectangular tables, naked or dressed</li>
+                    <li>Tablecloths and napkins</li>
+                    <li>Charger plates and side plates</li>
+                    <li>Gold or silver forks and knives</li>
+                    <li>Ribbed wine and champagne glasses</li>
+                    <li>Centrepieces and faux flower arrangements</li>
+                    <li>Stretch tent or coloured-frame tent</li>
+                    <li>Green or white turf</li>
+                    <li>Simple 3-piece backdrop, including 2 personalised pieces</li>
+                    <li>Hanging arrangement</li>
+                    <li>Standard gold and white couch</li>
+                    <li>2-piece welcome sign setup</li>
+                  </ul>
+                </div>
+                <a class="btn solid" href="contact.html?package=gold#enquiry">Book this package</a>
+              </article>
+
+              <article class="panel" id="pkg-premium">
+                <div class="hd">
+                  <span class="ico"
+                    ><svg aria-hidden="true"><use href="#i-gem" /></svg
+                  ></span>
+                  <h2>PREMIUM</h2>
+                </div>
+                <p class="tg">Luxury, sophistication and unforgettable style.</p>
+                <table>
+                  <caption>
+                    Package price in USD
+                  </caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">Guests</th>
+                      <td
+                        style="
+                          font: 500 10px/1 var(--sans);
+                          letter-spacing: 0.2em;
+                          text-transform: uppercase;
+                          color: var(--muted);
+                        "
+                      >
+                        Price
+                      </td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">15</th>
+                      <td>$340</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">20</th>
+                      <td>$420</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">25</th>
+                      <td>$500</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">30</th>
+                      <td>$580</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">40</th>
+                      <td>$740</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">50</th>
+                      <td>$900</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">60</th>
+                      <td>$1,060</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">80</th>
+                      <td>$1,380</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">100</th>
+                      <td>$1,700</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">150</th>
+                      <td>$2,500</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="incl">
+                  <h4>Setup includes</h4>
+                  <ul>
+                    <li>Louis or Dior Chairs</li>
+                    <li>Round or rectangular tables, naked or dressed</li>
+                    <li>Tablecloths and napkins</li>
+                    <li>Charger plates and side plates</li>
+                    <li>Portuguese gold or silver forks and knives</li>
+                    <li>Ribbed wine and champagne glasses</li>
+                    <li>Centrepieces and faux flower arrangements</li>
+                    <li>Coloured-frame tent</li>
+                    <li>Green or white turf</li>
+                    <li>5-piece backdrop, including 3 personalised pieces</li>
+                    <li>Coloured couch</li>
+                    <li>Stage and hanging arrangement</li>
+                    <li>2-piece welcome sign setup</li>
+                  </ul>
+                </div>
+                <a class="btn solid" href="contact.html?package=premium#enquiry">Book this package</a>
+              </article>
+            </div>
+            <p class="fine">
+              All prices are in USD and exclude transport. See <a href="contact.html#booking">booking information</a> for
+              deposit, outside-Harare and breakage terms.
+            </p>
+          </div>
+        </section>
+
+        <!-- ============================================================
+     EXTRAS
+     h2 = section title   p = quote
+     Three photo cards, then one list of extras per package (h3 = package name, each li = extra name + price)
+     When you change an extra, also change EXTRAS in js/form.js.
+     ============================================================ -->
+
+        <section id="extras" class="band alt">
+          <div class="in">
+            <div class="sec-head">
+              <h2>THE FINISHING TOUCHES</h2>
+              <span class="rule"></span>
+              <p>“Complete your setup with additional details that make the occasion uniquely yours.”</p>
+            </div>
+            <div class="strip">
+              <figure class="cardbox">
+                <img
+                  src="images/white-reception.jpg"
+                  alt="Personalised black-and-white dance floor with initials and date"
+                  width="960"
+                  height="1280"
+                  loading="lazy"
+                  style="object-position: 50% 88%"
+                />
+                <figcaption>
+                  <span class="ico"
+                    ><svg aria-hidden="true"><use href="#i-floor" /></svg></span
+                  >Personalised dance floor
+                </figcaption>
+              </figure>
+              <figure class="cardbox">
+                <img
+                  src="images/tent-welcome.jpg"
+                  alt="Personalised welcome sign with floral arrangements"
+                  width="750"
+                  height="535"
+                  loading="lazy"
+                  style="object-position: 88% 50%"
+                />
+                <figcaption>
+                  <span class="ico"
+                    ><svg aria-hidden="true"><use href="#i-sign" /></svg></span
+                  >Welcome signs
+                </figcaption>
+              </figure>
+              <figure class="cardbox">
+                <img
+                  src="images/floral-backdrop.jpg"
+                  alt="Chandelier above a white arched backdrop with red and orange florals"
+                  width="1152"
+                  height="1536"
+                  loading="lazy"
+                  style="object-position: 50% 8%"
+                />
+                <figcaption>
+                  <span class="ico"
+                    ><svg aria-hidden="true"><use href="#i-lamp" /></svg></span
+                  >Chandeliers
+                </figcaption>
+              </figure>
+            </div>
+            <div class="xcols">
+              <div class="cardbox xc">
+                <h3>
+                  <span class="ico"
+                    ><svg aria-hidden="true"><use href="#i-chair" /></svg></span
+                  >CLASSIC EXTRAS
+                </h3>
+                <ul>
+                  <li><span>Red Runner Carpet</span><b>$15</b></li>
+                  <li><span>White Runner Carpet</span><b>$25</b></li>
+                  <li><span>Personalised Dance Floor (2.4m × 2m)</span><b>$60</b></li>
+                  <li><span>Simple Welcome Sign</span><b>$15</b></li>
+                  <li><span>Clear Welcome Sign</span><b>$20</b></li>
+                  <li><span>Mirror Welcome Sign</span><b>$25</b></li>
+                  <li><span>Glass Cake Table</span><b>$5</b></li>
+                </ul>
+              </div>
+              <div class="cardbox xc">
+                <h3>
+                  <span class="ico"
+                    ><svg aria-hidden="true"><use href="#i-crown" /></svg></span
+                  >GOLD EXTRAS
+                </h3>
+                <ul>
+                  <li><span>Red Runner Carpet</span><b>$15</b></li>
+                  <li><span>White Runner Carpet</span><b>$25</b></li>
+                  <li><span>Personalised Dance Floor (2.4m × 2m)</span><b>$60</b></li>
+                  <li><span>Simple Welcome Sign</span><b>$15</b></li>
+                  <li><span>Clear Welcome Sign</span><b>$20</b></li>
+                  <li><span>Glass Cake Table</span><b>$5</b></li>
+                  <li><span>Pair of Stanchions</span><b>$15</b></li>
+                  <li><span>Chandelier</span><b>$20</b></li>
+                </ul>
+              </div>
+              <div class="cardbox xc">
+                <h3>
+                  <span class="ico"
+                    ><svg aria-hidden="true"><use href="#i-gem" /></svg></span
+                  >PREMIUM EXTRAS
+                </h3>
+                <ul>
+                  <li><span>Red Runner Carpet</span><b>$15</b></li>
+                  <li><span>White Runner Carpet</span><b>$25</b></li>
+                  <li><span>Personalised Dance Floor (2.4m × 2m)</span><b>$60</b></li>
+                  <li><span>Pair of Stanchions</span><b>$15</b></li>
+                  <li><span>Chandelier</span><b>$20</b></li>
+                  <li><span>Premium High Table</span><b>$20</b></li>
+                  <li><span>Glass Cake Table</span><b>$5</b></li>
+                </ul>
+              </div>
+            </div>
+            <p class="fine">
+              Extras are optional and priced separately. They are not included in the package prices above.
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <!-- ============================================================
+     SHARED FOOTER
+     This block is identical on every page. If you change it,
+     change it in all 5 pages.
+     ============================================================ -->
+      <footer class="slim">
+        <div class="in">
+          <nav class="fnav" aria-label="Footer">
+            <a href="index.html">Home</a>
+            <a href="packages.html" aria-current="page">Packages</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+          <p class="copy-r">
+            Signature Events, Event Styling &amp; Hire · Three Anchor House, Corner First Street &amp; Jason Moyo
+            Avenue, Harare, Zimbabwe ·
+            <a href="https://wa.me/263789571647" target="_blank" rel="noopener" data-wa>0789571647</a>
+          </p>
+          <p class="copy-r">© Signature Events. All rights reserved.</p>
+        </div>
+      </footer>
+
+    </div>
+
+    <!-- ============================================================
+     SCROLL-UP BUTTON AND WHATSAPP FLOATING BUTTON
+     ============================================================ -->
+    <button class="up" id="up" type="button" aria-label="Scroll to top">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 15l7-7 7 7" /></svg>
+    </button>
+    <div class="wa-wrap">
+      <a
+        class="wa"
+        id="wa"
+        href="https://wa.me/263789571647"
+        target="_blank"
+        rel="noopener"
+        aria-label="Chat with Signature Events on WhatsApp"
+      >
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+          <path
+            d="M16.04 3C9.4 3 4 8.4 4 15.03c0 2.12.55 4.18 1.6 6L4 29l8.17-1.57a12 12 0 0 0 3.87.64C22.67 28.07 28 22.67 28 16.04 28 9.4 22.67 3 16.04 3zm0 22.04c-1.2 0-2.37-.3-3.4-.9l-.5-.3-4.85.93.95-4.72-.32-.5a10 10 0 0 1-1.52-5.3c0-5.55 4.5-10.05 10.06-10.05 5.54 0 10.04 4.5 10.04 10.05 0 5.55-4.5 10.05-10.04 10.05zm5.5-7.52c-.3-.15-1.78-.88-2.06-.98-.28-.1-.48-.15-.68.15-.2.3-.78.98-.96 1.18-.18.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.46.13-.6.14-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.68-1.64-.93-2.25-.24-.58-.5-.5-.68-.5h-.58c-.2 0-.53.07-.8.38-.28.3-1.05 1.03-1.05 2.5s1.08 2.9 1.23 3.1c.15.2 2.1 3.2 5.08 4.5.7.3 1.27.5 1.7.62.72.23 1.37.2 1.88.12.58-.08 1.78-.73 2.03-1.43.25-.7.25-1.3.18-1.43-.08-.12-.28-.2-.58-.35z"
+          />
+        </svg>
+      </a>
+      <span class="bubble" id="bubble" aria-hidden="true">Need help?</span>
+    </div>
+
+    <!-- ============================================================
+     ICONS USED ON THIS PAGE (do not edit; each icon is reused with an SVG use tag)
+     ============================================================ -->
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true" focusable="false">
+      <defs>
+        <symbol id="i-chair" viewBox="0 0 24 24">
+          <path d="M7 3h10v8H7z M5 11h14v3H5z M7 14v7 M17 14v7" />
+        </symbol>
+        <symbol id="i-crown" viewBox="0 0 24 24"><path d="M3 8l4.5 4L12 4l4.5 8L21 8l-2 12H5z" /></symbol>
+        <symbol id="i-floor" viewBox="0 0 24 24">
+          <path d="M3 3h18v18H3z M3 9h18 M3 15h18 M9 3v18 M15 3v18" />
+        </symbol>
+        <symbol id="i-gem" viewBox="0 0 24 24">
+          <path d="M6 3h12l4 6-10 12L2 9z M2 9h20 M9 3l-2 6 5 12 5-12-2-6" />
+        </symbol>
+        <symbol id="i-lamp" viewBox="0 0 24 24">
+          <path d="M12 2v5 M5 10h14l-2 5H7z M8 15v3 M12 15v5 M16 15v3" />
+        </symbol>
+        <symbol id="i-sign" viewBox="0 0 24 24"><path d="M4 4h16v12H4z M12 16v5 M8 21h8" /></symbol>
+      </defs>
+    </svg>
+    <script src="js/settings.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
